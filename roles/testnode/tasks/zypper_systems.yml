@@ -51,8 +51,8 @@
 #  tags:
 #    - repos
 
-#- name: Perform package related tasks.
-#  include: yum/packages.yml
-#  tags:
-#    - packages
+- name: Perform package related tasks.
+  include: zypper/packages.yml
+  tags:
+    - packages
 
